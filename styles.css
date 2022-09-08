@@ -1,0 +1,116 @@
+.KotakUtama,.KotakPrint {
+    margin: auto;
+    width: 50%;
+    border: 6px solid #00c5bb;
+    padding: 10px;
+
+}
+.KotakPrint {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+
+}
+ .nama1{
+    margin: auto;
+    width: 4cm;
+    border : 2px solid black;
+    padding: 10px;
+    
+}
+
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+
+}
+h1, label, input {
+    font-family : lilita one, Arial, Helvetica, sans-serif;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #00c5bb;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #0d8d87;
+  }
+
+  button {
+    width: 100%;
+    background-color: #00c5bb;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0d8d87;
+  }
+
+  p {
+    text-align: center;
+    font-family: century gothic;
+    font-weight: bold;
+  }
+
+@media print {
+  .KotakUtama {display: none;}
+  .KotakPrint {
+   
+    margin: 0px;
+    border: none;
+    text-align: center;
+    border: 0px;
+    font-size: 17px;
+  }
+
+  .nama1 { 
+    border: 0px;
+    
+  }
+
+  img {
+    width: 200px;
+    margin : -18px;
+  }
+  
+  button {display: none;}
+  p {display: none;}
+}
+
+@media only screen and (max-width: 400px) {
+  /* For mobile phones: */
+  .KotakUtama, .KotakPrint{
+    width: 100%;}}
